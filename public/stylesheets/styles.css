@@ -12,3 +12,16 @@ td, th{
   border: 1px solid black;
   padding: 0.5em;
 }
+
+
+.shell{
+  border-radius:50%;
+  background-color: darkgray;
+  position: absolute;
+}
+
+
+#smash-board{
+  width: 100%;
+  height: 100%;
+}

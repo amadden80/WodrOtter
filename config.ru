@@ -15,4 +15,5 @@ Dir['./controllers/api/*.rb'].each {|file| require file }
 
 # Map routes to controllers
 map('/api/animals'){ run Api::AnimalsController }
+map('/smash'){ run SmashController }
 map('/'){ run WelcomeController }
