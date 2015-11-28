@@ -26,7 +26,6 @@ module Api
       {status: 204, message: 'Successful Delete'}.to_json
     end
 
-
     private
 
     def animal_params
