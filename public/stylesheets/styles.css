@@ -1,0 +1,14 @@
+body{
+  background-color: lightblue;
+}
+
+table{
+  background-color: rgba(255,255,255,0.5);
+  border: 1px solid black;
+}
+
+td, th{
+  background-color: rgba(255,255,255,0.5);
+  border: 1px solid black;
+  padding: 0.5em;
+}

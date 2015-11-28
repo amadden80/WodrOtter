@@ -1,0 +1,8 @@
+default: &default  # Defaults for a database connection
+  adapter: postgresql # Use PG
+  encoding: unicode # Set an encoding to avoid different encoding bugs
+  pool: 5 # How many active connections are allowed?
+
+development:
+  <<: *default
+  database: wodr_otter_development  # Database name

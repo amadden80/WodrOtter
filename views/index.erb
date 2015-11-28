@@ -1,0 +1,141 @@
+<h3>Welcome to the Wodr Otter API</h3>
+<h4>The Otter API... like no otter</h4>
+
+
+
+<section class="animal-api-docs">
+  <h4>Animal API</h4>
+
+  <table>
+    <thead>
+      <tr>
+        <th>
+          HTTP Verb
+        </th>
+        <th>
+          Route
+        </th>
+        <th>
+          Description
+        </th>
+        <th>
+          Parameters
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+        <td>
+          GET
+        </td>
+        <td>
+          /api/animals
+        </td>
+        <td>
+          JSON array of ALL the animals
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          GET
+        </td>
+        <td>
+          /api/animals/:id
+        </td>
+        <td>
+          JSON an individual animal by their id
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          POST
+        </td>
+        <td>
+          /api/animals
+        </td>
+        <td>
+          Create a new animals
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                animal[name]
+              </td>
+            </tr>
+            <tr>
+              <td>
+                animal[creature_type]
+              </td>
+            </tr>
+            <tr>
+              <td>
+                animal[noise]
+              </td>
+            <tr>
+            </tr>
+              <td>
+                animal[bio]
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          PATCH
+        </td>
+        <td>
+          /api/animals/:id
+        </td>
+        <td>
+          Update an existing animals
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                animal[name]
+              </td>
+            </tr>
+            <tr>
+              <td>
+                animal[creature_type]
+              </td>
+            </tr>
+            <tr>
+              <td>
+                animal[noise]
+              </td>
+            <tr>
+            </tr>
+              <td>
+                animal[bio]
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>
+          DELETE
+        </td>
+        <td>
+          /api/animals/:id
+        </td>
+        <td>
+          Remove existing animal
+        </td>
+      </tr>
+
+
+    </tbody>
+  </table>
+
+</section>
